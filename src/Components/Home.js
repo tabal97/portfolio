@@ -19,7 +19,7 @@ class Home extends Component {
                                 <a href="https://www.linkedin.com/in/mohamed-el-tabal-3a061a186/" target="_blank" rel="noopener noreferrer" >
                                     <i className="fa fa-linkedin-square" aria-hidden="true" />
                                 </a>
-                                <a href="https://github.com/tabal97?tab=repositories" target="_blank" rel="noopener noreferrer" >
+                                <a href="https://github.com/tabal97" target="_blank" rel="noopener noreferrer" >
                                     <i className="fa fa-github-square" aria-hidden="true" />
                                 </a>
                                 <a href="https://instagram.com/tabal97" target="_blank" rel="noopener noreferrer" >

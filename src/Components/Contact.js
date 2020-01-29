@@ -18,15 +18,24 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>Contact Me</h2>
                         <hr />
-                        <List>
+                        <List className="contact-list">
                             <ListItem>
-                                <ListItemContent icon="person">Bryan Cranston</ListItemContent>
+                                <ListItemContent style={{ fontSize: '25px', fontFamily: 'Nanum Gothic' }}>
+                                    <i className="fa fa-phone-square" aria-hidden="true" />
+                                    +44 7930303748
+                                </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent icon="person">Aaron Paul</ListItemContent>
+                                <ListItemContent style={{ fontSize: '25px', fontFamily: 'Nanum Gothic' }}>
+                                    <i className="fa fa-envelope-square" aria-hidden="true" />
+                                    mr.tabal@yahoo.co.uk
+                                </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
+                                <ListItemContent style={{ fontSize: '25px', fontFamily: 'Nanum Gothic' }}>
+                                    <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                    linkedin.com/in/tabal97
+                                </ListItemContent>
                             </ListItem>
                         </List>
                     </Cell>

@@ -51,6 +51,15 @@ user being able to vote on comments.</CardText>
                     <CardMenu style={{ color: '#fff' }}>
                     </CardMenu>
                 </Card >
+                <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+                    <CardTitle style={{ color: "#fff", height: "176px", background: 'url(https://hackernoon.com/hn-images/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover' }}>Portfolio</CardTitle>
+                    <CardText>The site you're using right now :)</CardText>
+                    <CardActions border>
+                        <Button colored href="https://github.com/tabal97/portfolio" target="_blank">GitHub</Button>
+                    </CardActions>
+                    <CardMenu style={{ color: '#fff' }}>
+                    </CardMenu>
+                </Card >
             </div>
 
         )
@@ -87,7 +96,7 @@ Streetview.</CardText>
     godot() {
         return (<div className="projects-grid">
             <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-                <CardTitle style={{ color: "#fff", height: "176px", background: "url(https://hackernoon.com/hn-images/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover" }}>Accessibility Centre</CardTitle>
+                <CardTitle style={{ color: "#fff", height: "176px", background: "url(https://preview.redd.it/m884qv5pmnd41.png?width=640&crop=smart&auto=webp&s=2259d07bd13965fd90682fffa3eca0c8a6caec65) center / cover" }}>Accessibility Centre</CardTitle>
                 <CardText>4 Accessible Mini-games that can be played with an eye tracker and using voice commands- made as part of the ManMetHack2.0 Hackathon Challenge</CardText>
                 <CardActions border>
                     <Button colored href="https://github.com/Zacxalot/AccessibilityCentre" target="_blank">GitHub</Button>
