@@ -10,7 +10,7 @@ class Home extends Component {
                 <Grid className="home-grid">
                     <Cell col={12}>
                         <img src={Avatar} alt="male-avatar" className="avatar-img" />
-                        <h1 className="header-home">Mohamed El Tabal</h1>
+                        <h1 className="header-home">Mohamed El Taball</h1>
                         <div className="banner-text">
                             <h1>Full Stack Web Developer</h1>
                             <hr />
