@@ -128,3 +128,16 @@ margin: auto
     background: #27221f;
     color:white
 }
+
+.about-body h1{
+    padding-left:3rem;
+    }
+.about-body p{
+padding-left:3rem;
+padding-right: 3rem;
+}
+
+.about-body hr{
+    /* margin:auto; */
+    margin-bottom: 1rem;
+    }
