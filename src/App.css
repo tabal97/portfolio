@@ -138,6 +138,6 @@ padding-right: 3rem;
 }
 
 .about-body hr{
-    /* margin:auto; */
+    /* visibility: hidden; */
     margin-bottom: 1rem;
     }
