@@ -14,6 +14,7 @@ class Projects extends Component {
             }} ripple>
                 <Tab>React</Tab>
                 <Tab>React-Native</Tab>
+                <Tab>React-Typescript</Tab>
                 <Tab>Godot</Tab>
             </Tabs>
             <Grid >
@@ -26,7 +27,7 @@ class Projects extends Component {
         </div>);
     }
     toggleCategories() {
-        const categories = { 0: this.react(), 1: this.reactNative(), 2: this.godot() }
+        const categories = { 0: this.react(), 1: this.reactNative(), 2: this.reactTS(), 3: this.godot() }
         const { activeTab } = this.state;
         return (
             <div>
@@ -63,7 +64,25 @@ user being able to vote on comments.</CardText>
             </div>
 
         )
-    }
+    };
+    reactTS() {
+        return (
+            <div className="projects-grid">
+                <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+                    <CardTitle style={{ color: "#fff", height: "176px", background: 'url(https://miro.medium.com/max/1024/1*Ukhx76VQ8E6JXEW7xfIzSA.png) center / cover' }}>Financial Wellbeing Community</CardTitle>
+                    <CardText>Mockup of a Government Website used to help reduce debt and financially aid persons by intervening before life events occur
+                     - won first place for HackTheNorth4.0 hosted by DWP Digital</CardText>
+                    <CardActions border>
+                        <Button colored href="https://github.com/Hack-the-North-4-0/team-forky" target="_blank">GitHub</Button>
+                        <Button colored href="http://financial-wellbeing-community.s3-website.eu-west-2.amazonaws.com/" target="_blank">Website</Button>
+                    </CardActions>
+                    <CardMenu style={{ color: '#fff' }}>
+                    </CardMenu>
+                </Card >
+            </div>
+
+        )
+    };
     reactNative() {
         return (
             <div className="projects-grid">
