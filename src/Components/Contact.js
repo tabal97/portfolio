@@ -11,9 +11,7 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>Mohamed El Tabal</h2>
                         <img src={Profile} className="profile-img" alt="profile" />
-                        <p style={{ width: "75%", margin: "auto", paddingTop: "1rem" }}>A passionate professional individual seeking a new challenge as a full-stack developer; after recently graduating from the developer course at Northcoders.
-
-</p>
+                        <p style={{ width: "75%", margin: "auto", paddingTop: "1rem" }}>A passionate professional individual with a solid background in web development, always on the lookout for new challenges.</p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>

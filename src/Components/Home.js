@@ -14,7 +14,7 @@ class Home extends Component {
                         <div className="banner-text">
                             <h1>Full Stack Web Developer</h1>
                             <hr />
-                            <p>HTML/CSS | React | React-Native | JavaScript | SQL | Express | NodeJS</p>
+                            <p>React | Angular | JavaScript | TypeScript | AWS | SQL | NodeJS</p>
                             <div className="social-links">
                                 <a href="https://www.linkedin.com/in/mohamed-el-tabal-3a061a186/" target="_blank" rel="noopener noreferrer" >
                                     <i className="fa fa-linkedin-square" aria-hidden="true" />
