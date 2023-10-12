@@ -14,7 +14,7 @@ class Home extends Component {
                         <div className="banner-text">
                             <h1>Full Stack Web Developer</h1>
                             <hr />
-                            <p>React | Angular | JavaScript | TypeScript | AWS | SQL | NodeJS</p>
+                            <p>React | Angular | NodeJS | TypeScript | AWS | MongoDB</p>
                             <div className="social-links">
                                 <a href="https://www.linkedin.com/in/mohamed-el-tabal-3a061a186/" target="_blank" rel="noopener noreferrer" >
                                     <i className="fa fa-linkedin-square" aria-hidden="true" />
@@ -22,11 +22,7 @@ class Home extends Component {
                                 <a href="https://github.com/tabal97" target="_blank" rel="noopener noreferrer" >
                                     <i className="fa fa-github-square" aria-hidden="true" />
                                 </a>
-                                <a href="https://instagram.com/tabal97" target="_blank" rel="noopener noreferrer" >
-                                    <i className="fa fa-instagram" aria-hidden="true" />
-                                </a>
                             </div>
-
                         </div>
                     </Cell>
                 </Grid>
